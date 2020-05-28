@@ -1,0 +1,23 @@
+pipeline {
+    agent { label 'master' }
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                build job: 'seleniumFreeStyle'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+                build job: 'seleniumProject2'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+project.ext {
+    cucumberVersion = '5.6.0'
+}
+
+dependencies {
+    testImplementation 'io.cucumber:cucumber-java:' + cucumberVersion
+    testImplementation 'io.cucumber:cucumber-junit:' + cucumberVersion
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.0'
+    compile 'com.github.stephenc.monte:monte-screen-recorder:0.7.7.0'
+    compile 'org.seleniumhq.selenium:selenium-java:3.141.0'
+}
+
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-10T16:24:37.573Z",
+        "line": 53,
+        "name": "Upload file via Auto IT HTML contact form",
+        "description": "",
+        "id": "selenium-practice;upload-file-via-auto-it-\u003chyperlink\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6252175400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user launch the demo auto IT url",
+            "match": {
+              "location": "io.cucumber.skeleton.stepdefinition.StepDefinitions.user_launch_the_demo_autoIT() in file:/C:/Users/pc/Downloads/PICNIC%20VAYU/cucumber-java-skeleton-master/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41536393200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user click on Image and upload a file",
+            "match": {
+              "location": "io.cucumber.skeleton.stepdefinition.StepDefinitions.user_click_Image_upload_file() in file:/C:/Users/pc/Downloads/PICNIC%20VAYU/cucumber-java-skeleton-master/target/test-classes/"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@autoIT"
+          }
+        ]
+      }
+    ],
+    "name": "Selenium Practice",
+    "description": "",
+    "id": "selenium-practice",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/sample.feature",
+    "tags": []
+  }
+]

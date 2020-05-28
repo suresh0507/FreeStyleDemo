@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="gecko"/>
+    <classes>
+      <class name="io.cucumber.skeleton.RunCucumberTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="initiate"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- io.cucumber.skeleton.RunCucumberTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
